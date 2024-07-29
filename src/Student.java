@@ -34,6 +34,7 @@ public class Student implements Comparable<Student> {
 
     @Override
     public int compareTo(Student that) {
-        return this.rollNo - that.rollNo;
+        // return this.rollNo - that.rollNo;
+        return this.name.compareTo(that.name); //name ke saath compareTo() esliye use kar pa rahe bcuz name String type ka hai jo ki CompareTo() ko already by default hi implement karta hai...
     }
 }
