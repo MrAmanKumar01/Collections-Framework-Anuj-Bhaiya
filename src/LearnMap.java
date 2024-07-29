@@ -38,9 +38,12 @@ public class LearnMap {
 //            System.out.println(key);
 //        }
 //
-//        for(Integer value: numbers.values()) {
-//            System.out.println(value);
-//        }
+       for(Integer value: numbers.values()) {
+           System.out.println(value);
+       }
+        
+        numbers.clear();
+        System.out.println(numbers);
 
     }
 }
