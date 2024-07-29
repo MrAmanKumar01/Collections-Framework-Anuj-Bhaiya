@@ -26,10 +26,12 @@ public class LearnCollectionsClass {
         //     @Override
         //     public int compare(Student o1, Student o2) {
         //         return o1.name.compareTo(o2.name);
+                // return o1.rollNo - o2.rollNo;       // using rollNo as basis to compare         
         //     }
         // });
         
         Collections.sort(list, (o1, o2) -> o1.name.compareTo(o2.name));  //Same functionality as above in shorthand using Lambda
+        // Collections.sort(list, (o1, o2) -> o1.rollNo - o2.rollNo);  // using rollNo as basis to compare
 
         System.out.println(list);
 
