@@ -21,7 +21,15 @@ public class LearnCollectionsClass {
 
         System.out.println(list);
 
-        Collections.sort(list, (o1, o2) -> o1.name.compareTo(o2.name));
+        //Imp**
+        // Collections.sort(list, new Comparator<Student>() {
+        //     @Override
+        //     public int compare(Student o1, Student o2) {
+        //         return o1.name.compareTo(o2.name);
+        //     }
+        // });
+        
+        Collections.sort(list, (o1, o2) -> o1.name.compareTo(o2.name));  //Same functionality as above in shorthand using Lambda
 
         System.out.println(list);
 
