@@ -42,7 +42,7 @@ public class LearnMap {
            System.out.println(value);
        }
         
-        numbers.clear();
+        numbers.clear();   //clears the map
         System.out.println(numbers);
 
     }
